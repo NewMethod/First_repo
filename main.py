@@ -1,3 +1,2 @@
-print("Hello world!")
-
-print("Hello Git")
+from icecream import ic
+print("Hello world!", "Hello Git")

@@ -9,6 +9,8 @@ def get_numbers_ticket(min, max, quantity):
         while len(set_numbers_ticket) < quantity:
             number = random.randrange(min, max)
             set_numbers_ticket.add(number)
+        #get list from set
+        set_numbers_ticket = list(set_numbers_ticket)
         return set_numbers_ticket
     else:
         return []

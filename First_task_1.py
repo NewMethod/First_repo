@@ -18,4 +18,4 @@ def get_days_from_today(date):
     except (ValueError):
         return "Maybe you have got more then 31 day or 12 months or\npleese format date as str YYYY-MM-DD"
 
-print(get_days_from_today('2056-12-d2'))
+print(get_days_from_today('2056-12-02'))

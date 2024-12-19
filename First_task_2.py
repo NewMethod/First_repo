@@ -2,7 +2,7 @@ import random
 
 def get_numbers_ticket(min, max, quantity):
     #validating parameters data
-    if (str(min) + str(max) +str(quantity)).isdigit() and max > min and min > 0 and max <= 1000 and quantity <= (max - min):
+    if (str(min) + str(max) +str(quantity)).isdigit() and 0 < min < max <= 1000 and quantity <= (max - min):
         #generate full set
         set_numbers_ticket = set()
         #generate set of numbers
